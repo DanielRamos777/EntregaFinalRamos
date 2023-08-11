@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CELULARES</title>
+    <link rel="stylesheet" href="../estilos/sass.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">    <script src="./js.js" defer></script>
+    <script src="../js.js" defer></script>
+</head>
+<body>
+    <header>
+        <div>
+            <a href="../index.html"><img class="logo" src="../image/logo.png"></a>
+            <h2 class="animate__animated animate__fadeInLeftBig">CELULAR</h2>
+        </div>
+        <nav>
+            <ul>
+                <li>
+                    <a href="../index.html">CELULAR</a>
+                </li>
+                <li>
+                    <a href="./celulares.html">CELULARES</a>
+                </li>
+                <li>
+                    <a href="./noticias.html">NOTICIAS</a>
+                </li>
+                <li>
+                    <a href="./contactos.html">CONTACTO</a>
+                </li>
+                <li>
+                    <a id="welcome-message1" href="./inicio.html">INICIAR SESION</a>
+                </li>
+                <div class="dropdown">
+                    <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false"></a>
+                    <ul class="dropdown-menu hidden" aria-labelledby="dropdownMenuLink">
+                        <li><a class="dropdown-item" href="./pagar.html">Ver Carrito</a></li>
+                        <li><a class="dropdown-item" id="logout-button" href="#">Cerrar Sesion</a></li>
+                    </ul>
+                
+            </ul>
+        </nav>
+    </header>
+
+    <section id="carrito">
+        <h2>Carrito de compras</h2>
+        <ul id="lista-carrito"></ul>
+        <p id="total-carrito">Total: $0</p>
+        <a href="./pagar.html"><p class="pagar">ir a pagar</p></a>
+    </section>
+    
+    <section id="productos">
+
+        <div class="producto">
+            <img src="../image/imagen.jpg" alt="Poco X5 5G Black 8GB - 256GB">
+            <h3>Poco X5 5G Black 8GB - 256GB</h3>
+            <p>Precio: $280</p>
+            <button onclick="agregarAlCarrito('Poco X5 5G Black 8GB - 256GB', 280)">Agregar al carrito</button>
+        </div>
+
+        <div class="producto">
+            <img src="../image/f4_gt_amarillo.jpg" alt="Poco F4 GT Yellow 12GB - 256GB">
+            <h3>Poco F4 GT Yellow 12GB - 256GB</h3>
+            <p>Precio: $890</p>
+            <button onclick="agregarAlCarrito('Poco F4 GT Yellow 12GB - 256GB', 890)">Agregar al carrito</button>
+        </div>
+
+        <div class="producto">
+            <img src="../image/Xiaomi 12 PRO Gray 12GB-256GB .jpg" alt="Xiaomi 12 PRO Gray 12GB - 256GB">
+            <h3>Xiaomi 12 PRO Gray 12GB - 256GB</h3>
+            <p>Precio: $970</p>
+            <button onclick="agregarAlCarrito('Xiaomi 12 PRO Gray 12GB-256GB', 970)">Agregar al carrito</button>
+        </div>
+
+        <div class="producto">
+            <img src="../image/redminote12pro.jpg" alt="Redmi Note 12 PRO 5G Black 8GB-256GB">
+            <h3>Redmi Note 12 PRO 5G Black 8GB-256GB</h3>
+            <p>Precio: $420</p>
+            <button onclick="agregarAlCarrito('Redmi Note 12 PRO 5G Black 8GB-256GB', 420)">Agregar al carrito</button>
+        </div>
+
+        <div class="producto">
+            <img src="../image/AppleiPhone14ProMax256GB.jpg" alt="Apple iPhone 14 Pro Max 8GB-256GB">
+            <h3>Apple iPhone 14 Pro Max 8GB-256GB</h3>
+            <p>Precio: $1730</p>
+            <button onclick="agregarAlCarrito('Apple iPhone 14 Pro Max 8GB-256GB', 1730)">Agregar al carrito</button>
+        </div>
+
+        <div class="producto">
+            <img src="../image/AppleiPhone14128GB.jpg" alt="Apple iPhone 14 6GB-128GB">
+            <h3>Apple iPhone 14 6GB-128GB</h3>
+            <p>Precio: $1115</p>
+            <button onclick="agregarAlCarrito('Apple iPhone 14 6GB-128GB', 1115)">Agregar al carrito</button>
+        </div>
+
+        <div class="producto">
+            <img src="../image/GalaxyS22 Ultra.png" alt="Galaxy S22 Ultra 8GB-256GB">
+            <h3>Galaxy S22 Ultra 8GB-256GB</h3>
+            <p>Precio: $1785</p>
+            <button onclick="agregarAlCarrito('Galaxy S22 Ultra 8GB-256GB', 1785)">Agregar al carrito</button>
+        </div>
+
+        <div class="producto">
+            <img src="../image/SamsungGalaxy.jpg" alt="Samsung Galaxy 4GB-128GB">
+            <h3>Samsung Galaxy A23 4GB-128GB</h3>
+            <p>Precio: $306</p>
+            <button onclick="agregarAlCarrito('Samsung Galaxy A23 4GB-128GB', 306)">Agregar al carrito</button>
+        </div>
+        <!-- ----------------------------------------------------------------- -->
+        <div class="producto">
+            <img src="../image/GalaxyZFlip4256GB8GB.jpg" alt="Samsung Galaxy Z Flip 4 8GB-256GB">
+            <h3>Samsung Galaxy Z Flip 4 8GB-256GB</h3>
+            <p>Precio: $1060</p>
+            <button onclick="agregarAlCarrito('Samsung Galaxy Z Flip 4 8GB-256GB', 1060)">Agregar al carrito</button>
+        </div>
+
+    </section>
+    
+
+
+
+    <footer>
+        <a target="_blank" href="http://"><p>Todos los derechos reservados</p></a>
+        <a target="_blank" href="http://"><p>informes@celulares.com</p></a>
+        <a target="_blank" href="http://"><p>©2023 celulares</p></a>
+        <a target="_blank" href="http://"><p>Todos los derechos reservados</p></a>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+</html>

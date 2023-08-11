@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACTOS</title>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link rel="stylesheet" href="../estilos/sass.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">    <script src="./js.js" defer></script>
+    <script src="../js.js" defer></script>
+</head>
+<body>
+    <header>
+        <div>
+            <a href="../index.html"><img class="logo" src="../image/logo.png"></a>
+            <h2 class="animate__animated animate__zoomInRight">CELULAR</h2>
+        </div>
+        <nav>
+            <ul>
+                <li>
+                    <a href="../index.html">CELULAR</a>
+                </li>
+                <li>
+                    <a href="./celulares.html">CELULARES</a>
+                </li>
+                <li>
+                    <a href="./noticias.html">NOTICIAS</a>
+                </li>
+                <li>
+                    <a href="./contactos.html">CONTACTO</a>
+                </li>
+                <li>
+                    <a id="welcome-message1" href="./inicio.html">INICIAR SESION</a>
+                </li>
+                <div class="dropdown">
+                    <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false"></a>
+                    <ul class="dropdown-menu hidden" aria-labelledby="dropdownMenuLink">
+                        <li><a class="dropdown-item" href="./pagar.html">Ver Carrito</a></li>
+                        <li><a class="dropdown-item" id="logout-button" href="#">Cerrar Sesion</a></li>
+                    </ul>
+            </ul>
+        </nav>
+    </header>
+
+
+<section class="container_contactos">
+    <section>
+        <div><p></p></div>
+    </section>
+</section>
+<section class="container_contactos">
+    <section>
+        <div><p></p></div>
+    </section>
+</section>
+
+</section>
+
+
+
+<section class="contactos" >
+    <div>
+        <span>Datos para el canal de ventas corporativas</span>
+    </div>
+        <div>
+            <inputeados>Deseo comprar para mi empresa y/o empleados</label>
+            <input type="checkbox" id="" name="" value="">
+        </div>
+    </div>
+    <div>Deseo ser mayorista<input type="checkbox" id="" name="" value=""></div>
+    <div>
+        <label>Nombre de la empresa:<em>*</em></label>
+        <input type="text">
+    <div>
+    <div>
+        <label>Ruc:<em>*</em></label>
+        <input type="text">
+    </div>
+    <div>
+        <label>Nombre del apoderado:</label>
+        <input type="text">
+    </div>
+    <div>
+        <label>Gerente General</label>
+        <input type="text">
+    </div>
+    <div>
+        <label>Encargado Comercial:<em>*</em></label>
+        <input type="text">
+    </div>
+    <div>
+        <label>Número de tiendas:</label>
+        <input type="text">
+    </div>
+    <div>
+        <label>E-Mail:<em>*</em></label>
+        <input type="text">
+    </div>
+    <div>
+        <label>Dirección:</label>
+        <input type="text">
+    </div>
+    <div>
+        <label>Teléfono:<em>*</em></label>
+        <input type="text">
+    </div>
+    <div>
+        <label>Comentarios o consultas<em>*</em></label>
+    </div>
+    <textarea></textarea>
+
+    <div>
+        <button type="submit" onclick="enviarFormulario()">ENVIAR</button>
+    </div>
+    </section>
+    
+    <script>
+        function enviarFormulario() {
+            swal({ 
+                title: '¡Registro exitoso!',
+                text: '¡Inicia sesión!', 
+                icon: 'success', 
+                timer: 2000, 
+                button: false, 
+            }); 
+            setTimeout(function() { 
+                location.reload(); // Actualizar la página
+            }, 2000); 
+        }
+    </script>
+
+
+    <footer>
+        <a target="_blank" href="http://"><p>Todos los derechos reservados</p></a>
+        <a target="_blank" href="http://"><p>informes@celulares.com</p></a>
+        <a target="_blank" href="http://"><p>©2023 celulares</p></a>
+        <a target="_blank" href="http://"><p>Todos los derechos reservados</p></a>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

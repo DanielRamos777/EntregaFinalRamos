@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOTICIAS</title>
+    <link rel="stylesheet" href="../estilos/sass.css">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">    <script src="./js.js" defer></script>
+    <script src="../js.js" defer></script>
+</head>
+<body>
+    <header>
+        <div>
+            <a href="../index.html"><img class="logo" src="../image/logo.png"></a>
+            <h2 class="animate__animated animate__zoomInLeft">CELULAR</h2>
+        </div>
+        <nav>
+            <ul>
+                <li>
+                    <a href="../index.html">CELULAR</a>
+                </li>
+                <li>
+                    <a href="./celulares.html">CELULARES</a>
+                </li>
+                <li>
+                    <a href="./noticias.html">NOTICIAS</a>
+                </li>
+                <li>
+                    <a href="./contactos.html">CONTACTO</a>
+                </li>
+
+
+                <li>
+                    <a id="welcome-message" href="./inicio.html"></a>
+                </li>
+                <div class="dropdown">
+                  <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false"></a>
+                  <ul class="dropdown-menu hidden" aria-labelledby="dropdownMenuLink">
+                    <li><a class="dropdown-item" href="./pagar.html">Ver Carrito</a></li>
+                    <li><a class="dropdown-item" id="logout-button" href="#">Cerrar Sesion</a></li>
+                  </ul>
+                </div>
+                
+            </ul>
+        </nav>
+    </header>
+
+
+
+    <body>
+      <div class="container">
+        <h1>Iniciar sesión</h1>
+        <form id="login-form">
+          <input type="text" id="login-username" placeholder="Nombre de usuario" required>
+          <input type="password" id="login-password" placeholder="Contraseña" required>
+          <button type="submit">Iniciar sesión</button>
+        </form>
+      </div>
+
+
+
+
+      <div class="container">
+        <h1>Registro</h1>
+        <form id="register-form">
+          <input type="text" id="register-username" placeholder="Nombre de usuario" required>
+          <input type="password" id="register-password" placeholder="Contraseña" required>
+          <button type="submit">Registrarse</button>
+        </form>
+      </div>
+
+    <footer>
+        <a target="_blank" href="http://"><p>Todos los derechos reservados</p></a>
+        <a target="_blank" href="http://"><p>informes@celulares.com</p></a>
+        <a target="_blank" href="http://"><p>©2023 celulares</p></a>
+        <a target="_blank" href="http://"><p>Todos los derechos reservados</p></a>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

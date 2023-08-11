@@ -1,0 +1,30 @@
+#productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.producto {
+    text-align: center;
+    margin: 20px;
+}
+
+.producto img {
+    width: 200px;
+    height: 200px;
+}
+
+#carrito {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f2f2f2;
+}
+#lista-carrito {
+    list-style-type: none;
+    padding: 0;
+}
+#total-carrito {
+    font-weight: bold;
+    text-align: left;
+}
